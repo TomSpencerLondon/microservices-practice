@@ -1,0 +1,5 @@
+/home/tom/Projects/microservices/sb/src/main/java/com/example/sb/health/ServiceReadyHealthCheck.java
+/home/tom/Projects/microservices/sb/src/main/java/com/example/sb/SbRestApplication.java
+/home/tom/Projects/microservices/sb/src/main/java/com/example/sb/health/ServiceStartupHealthCheck.java
+/home/tom/Projects/microservices/sb/src/main/java/com/example/sb/HelloController.java
+/home/tom/Projects/microservices/sb/src/main/java/com/example/sb/health/ServiceLiveHealthCheck.java

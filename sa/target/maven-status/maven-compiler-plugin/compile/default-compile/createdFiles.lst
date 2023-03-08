@@ -1,0 +1,6 @@
+com/example/sa/SaRestApplication.class
+com/example/sa/health/ServiceStartupHealthCheck.class
+com/example/sa/health/ServiceLiveHealthCheck.class
+com/example/sa/ServiceBClient.class
+com/example/sa/health/ServiceReadyHealthCheck.class
+com/example/sa/HelloController.class

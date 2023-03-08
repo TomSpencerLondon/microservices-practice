@@ -1,0 +1,5 @@
+com/example/sb/health/ServiceLiveHealthCheck.class
+com/example/sb/health/ServiceStartupHealthCheck.class
+com/example/sb/HelloController.class
+com/example/sb/SbRestApplication.class
+com/example/sb/health/ServiceReadyHealthCheck.class
