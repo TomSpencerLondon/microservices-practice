@@ -75,6 +75,29 @@ public class HelloController {
 ### How can we make the reference fault tolerant?
 - Add @Retry!
 
+```bash
+package com.example.sa;
+
+@Path("/hello")
+@Singleton
+public class HelloController {
+
+
+    @Inject @ConfigProperty(name = "userName")
+    String userName;
+
+    @Inject
+    @RestClient ServiceBClient serviceBClient;
+    @Retry
+    @GET
+    public String sayHello() {
+        return "Hello from " + userName + " to " + serviceBClient.sayHello();
+    }
+}
+```
+
+
+
 Now it doesn't break every three requests. Yay!
 
 ![image](https://user-images.githubusercontent.com/27693622/223878154-a20a1bb3-bd95-450a-9b51-27cae83b00a5.png)
