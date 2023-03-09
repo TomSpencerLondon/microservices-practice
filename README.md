@@ -132,3 +132,16 @@ Run admin/management tasks as one-off processes
 
 https://www.youtube.com/watch?v=Ov3BbGl2iyQ
 
+possible docker config in Dockerfile:
+
+```bash
+
+FROM open-liberty:microProfile2
+USER root
+MAINTAINER Tom Spencer
+COPY /target/sa /config/
+
+RUN apt-get update -y && apt-get install -y curl
+USER 1001
+```
+
